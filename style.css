@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+html{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    padding: min(5vh, 10rem);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-color: #b4a68e;
+    width: 100%;
+    position: sticky;
+    left: 0;
+    top: 0;
+    box-shadow: 0 10px 20px wheat;
+}
+header i{
+    font-size: 1.7em;
+}
+#section1{
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(img/the-interior-of-the-1508273_1280.jpg);
+    padding: min(35vh, 50rem);
+    text-align: center;
+    font-weight: 900;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.7;
+    width: 100%;
+}
+#section2{
+    background-color: #f3daaa;
+    padding: min(30vh, 30rem);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+#section2 img{
+    width: 16rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
