@@ -15,6 +15,7 @@ header{
     padding: min(5vh, 10rem);
     display: flex;
     justify-content: space-evenly;
+    list-style: none;
     text-align: center;
     align-items: center;
     background-color: #b4a68e;
@@ -27,6 +28,7 @@ header{
 }
 header i{
     font-size: 1.7em;
+    color: white;
 }
 #section1{
     background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(img/the-interior-of-the-1508273_1280.jpg);
