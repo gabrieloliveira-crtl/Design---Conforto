@@ -129,6 +129,22 @@ footer .icones{
     gap: 30px;
     font-size: 30px;
 }
+.whatsapp{
+    /* permite que elementos posicionados dentro da classe sejam posicionado em relação a ela */
+    position: relative;
+}
+.whatsapp img{
+    /* mantem a imagem em uma posição fixa na tela, mesmo ao rolar */
+    position: fixed;
+    /* define a distancia da imagem em relaçao á parte inferior da tela */
+    bottom: 20px;
+    /* define a distancia da imagem em relaçao á direita da tela */
+    right: 20px;
+    /* define a largura da imagem como 3.7 unidades de rem (relativas ao tamanho da fonte) */
+    width: 3.7rem;
+    /* ajusta a altura da imagem automaticamente para manter a proporção */
+    height: auto;
+}
 @media(max-width:873px){
     header{
         padding: 2rem;
@@ -141,13 +157,16 @@ footer .icones{
         font-size: 38px;
     }
     #section1{
-        padding: 3rem;
+        padding: 5rem;
         background: linear-gradient(180deg, #0c16a394 8.33%, rgba(5, 39, 101, 0.859) 100%), url(img/the-interior-of-the-1508273_1280.jpg);
-        color: rgb(0, 0, 0);
+        color: white;
+        font-weight: 500;
+
     }
     #section2{
-        padding: 3rem;
+        padding: 6rem;
         display: flex;
+        font-weight: 900;
         flex-direction: column;
     }
     #section3{
