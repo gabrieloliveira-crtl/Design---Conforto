@@ -151,8 +151,11 @@ footer .icones{
     utomaticamente para manter a proporção */
     height: auto;
 }
+/* começando a responsividade */
 @media(max-width:873px){
+/* começando a mexer com o cabeçalho */
     header{
+        /* mexendo com o tamanho do header */
         padding: 2rem;
         display: flex;
         align-items: center;
